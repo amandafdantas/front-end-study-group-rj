@@ -3,105 +3,172 @@
 
 <head>
 	<meta charset="utf-8">
+	<link rel="icon" href="./images/icon.ico" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
 	<title>Front-End Study 2</title>
 </head>
 
 <body>
 	<!-- Menu -->
 	<nav class="menu">
-
 		<ul>
-			<img src="images/logo.png" width="20%" height="20%" alt="">
-			<li><a class="" href="#">HOME</a></li>
-			<li><a class="" href="#">SERVIÇOS</a></li>
-			<li><a class="" href="#">PORTIFÓLIO</a></li>
-			<li><a class="" href="#">SOBRE MIM</a></li>
-			<li><a class="" href="#">CONTATO</a></li>
+			<li><img class="menu-logo" src="images/logo.png" alt=""></li>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#servicos">SERVIÇOS</a></li>
+			<li><a href="#portifolio">PORTIFÓLIO</a></li>
+			<li><a href="#sobre">SOBRE MIM</a></li>
+			<li><a href="#contato">CONTATO</a></li>
 		</ul>
 	</nav>
 
 	<!-- Slides -->
-	<div class="">
-		<img src="images/Slider.png" alt="">
-	</div>
+	<section id="">
+		<div class="slide">
+			<img class="fundo-slide" src="images/Slider.png" alt="">
+			<div>
+				<img class="img-slide" src="images/slider01.png" alt="">
+			</div>
+		</div>
+	</section>
 
 	<!-- Serviços -->
-	<div class="">
-		<h2>Serviços</h2>
-		<h5>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</h5>
+	<section id="servicos">
 
-		<img src="images/Service1.png" alt="">
-		<h3>Websites</h3>
-		<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis
-			soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</h5>
-		<img src="images/Service2.png" alt="">
-		<h3>Templates</h3>
-		<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis
-			soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</h5>
-		<img src="images/Service3.png" alt="">
-		<h3>Temas WordPress</h3>
-		<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis
-			soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</h5>
-	</div>
+		<h2>Serviços</h2>
+		<p>Abaixo os serviços que realizamos.</p>
+
+		<!-- Imagens Serviços -->
+		<div class="container">
+			<div class="item-servicos">
+				<img class="img-servicos" src="images/Service1.png" alt="">
+				<h3>Websites</h3>
+				<p>Desenvolvimento de Websites para divulgação do seu produto ou negócio.</p>
+			</div>
+
+			<div class="item-servicos">
+				<img class="img-servicos" src="images/Service2.png" alt="">
+				<h3>Templates</h3>
+				<p>Desenvolvimento de Templates de acordo com a sua necessidade.</p>
+			</div>
+
+			<div class="item-servicos">
+				<img class="img-servicos" src="images/Service3.png" alt="">
+				<h3>Temas Wordpress</h3>
+				<p>Temas wordPress e ferramentas similares.</p>
+			</div>
+		</div>
+
+	</section>
 
 	<!-- Meus Trabalhos -->
-	<div class="">
+	<section id="portifolio">
+
 		<h2>Meus trabalhos</h2>
-		<h5>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</h5>
+		<p>Abaixo alguns dos trabalhos ja realizados.</p>
 		<button type="button" name="btnTudo">Tudo</button>
 		<button type="button" name="btnWebSite">Website</button>
 		<button type="button" name="btnTemplate">Template</button>
 		<button type="button" name="btnTema">Tema</button>
-		<br>
-		<img src="images/Portfolio01.png" alt="">
-		<h5>Thumbnail label</h5>
-		<p>Thumbnail caption</p>
-		<img src="images/Portfolio02.png" alt="">
-		<h5>Thumbnail label</h5>
-		<p>Thumbnail caption</p>
-		<img src="images/Portfolio03.png" alt="">
-		<h5>Thumbnail label</h5>
-		<p>Thumbnail caption</p>
-	</div>
+
+		<div class="container">
+			<div class="item-portifolio">
+				<figure>
+					<img class="img-portifolio" src="images/Portfolio01.png" alt="">
+					<figcaption>
+						Exemplo de site 1
+						<p>Descrição do site 1</p>
+					</figcaption>
+				</figure>
+			</div>
+
+			<div class="item-portifolio">
+				<figure>
+					<img class="img-portifolio" src="images/Portfolio02.png" alt="">
+					<figcaption>
+						Exemplo de site 2
+						<p>Descrição do site 2</p>
+					</figcaption>
+				</figure>
+			</div>
+
+			<div class="item-portifolio">
+				<figure>
+					<img class="img-portifolio" src="images/Portfolio03.png" alt="">
+					<figcaption>
+						Exemplo de site 3
+						<p>Descrição do site 3</p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+
+	</section>
 
 	<!-- Quem Sou Eu -->
-	<div class="">
+	<section id="sobre">
+
 		<h2>Quem sou eu</h2>
-		<h5>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</h5>
-		<img src="images/photo.png" alt="">
-		<br>
-		<caption>Joana D'arc</caption>
-		<br>
-		<p>ícones </p>
-		<h2>Sobre Mim</h2>
-		<h5>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diamnonummy nibh euismod tincidunt ut laoreet
-			dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-			lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-			esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-			dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</h5>
-		<h2>Habilidades</h2>
-		<li>Java Script</li>
-		<li>Html & CSS</li>
-		<li>jQuery</li>
-		<li>Wordpress</li>
-	</div>
+		<p>Descrição de quem sou eu.</p>
+
+		<figure>
+			<img class="sobre-img" src="images/photo.png">
+			<figcaption class="sobre-nome">
+				Amanda Dantas
+			</figcaption>
+		</figure>
+
+		<!-- ícones -->
+		<a href="https://www.facebook.com/" target="_blank">
+			<i class="fab fa-facebook-f fa-1x"></i>
+		</a>
+		<a href="https://www.twitter.com/" target="_blank">
+			<i class="fab fa-twitter fa-1x" aria-hidden="true"></i>
+		</a>
+		<a href="https://www.twitter.com/" target="_blank">
+			<i class="fab fa-linkedin-in fa-1x" aria-hidden="true"></i>
+		</a>
+
+		<h3>Sobre Mim</h3>
+		<p>Formada em Ciência da Computação em 2012 na Universidade Veiga de Almeida.</p>
+		<p> Atualmente trabalhando com desenvolvimento de relatórios gerenciais para os sistemas VS
+			programando em Xbase e elaborando queries SQL (SQL Server, Oracle, MySQL).</p>
+		<p>Uso da ferramenta iReport para a criação de layouts de relatórios.</p>
+
+		<h3>Habilidades</h3>
+		<div class="progress">
+			<div class="progress-bar"> Html & CSS</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar"> Java Script</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar">SQL</div>
+		</div>
+
+		<div class="progress">
+			<div class="progress-bar">PHP</div>
+		</div>
+
+	</section>
 
 	<!-- Contato -->
-	<div class="">
+	<section id="contato">
 		<h2>Contato</h2>
-		<h5>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</h5>
-		<h4>meuemail@mail.com</h4>
-		<h4>+55 21 987654-321</h4>
-		<h3>Mídias</h3>
-		ícones das midias
-	</div>
+		<a href="mailto:amandafdantas@gmail.com">amandafdantas@gmail.com</a>
+		<br>
+		<p>Telegram: @dantas_amanda</p>
+
+	</section>
 
 	<!-- Footer -->
 
-	<div class="">
-		<h5>Women + Tech = strong </h5>
-
-	</div>
+	<footer>
+		<p>Women + Tech = &#60&#47strong&#62 </p>
+	</footer>
 
 </body>
 
